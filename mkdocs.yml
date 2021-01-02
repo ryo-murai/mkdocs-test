@@ -1,0 +1,24 @@
+site_name: My Docs
+theme: 
+  name: "material"
+  language: "ja"
+extra_css:
+  - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+  - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+extra:
+  font:
+    text: "Noto Sans JP"
+    code: "Consolas"
+  palette:
+    primary: "indigo"
+    accent: "blue"
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx.inline
+  - pymdownx.superfences:
+  - footnotes:
+
+  - plantuml_markdown:
+      server: http://www.plantuml.com/plantuml
